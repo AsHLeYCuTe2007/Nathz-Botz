@@ -71,7 +71,7 @@ module.exports.handleEvent = async function ({ api, event }) {
 ║ ──────────────────
 ║ And Make Lots Of Friends =)
 ║ ──────-°°__𝗧𝗿𝘂𝘀𝘁 𝗺e 🔐 °__!!>☁️✨❤️
-║ My Owner ✦͙͙͙͙❥⃝∗⁎.ʚ 𝗔𝗺𝗶𝗻𝘂𝗹 𝗦𝗼𝗿𝗱𝗮𝗿 ɞ.⁎∗❥⃝**͙✦͙͙͙
+║ My Owner ◦•●◉✿ 𝗡𝗮𝘁𝗵𝘇𝗗𝗲𝘃 ✿◉●•◦
 ║ ❤️ Love you 😘 ummmma ❤️😍
 ╚══════════════════════╝`;
 
@@ -95,8 +95,8 @@ module.exports.handleEvent = async function ({ api, event }) {
 ║ ──────────────────
 ║ And Make Lots Of Friends =)
 ║ ──────-°°__𝗧𝗿𝘂𝘀𝘁 𝗺e 🔐 °__!!>☁️✨❤️
-║ My Owner ✦͙͙͙͙❥⃝∗⁎.ʚ Vern ɞ.⁎∗❥⃝**͙✦͙͙͙
-║ ❤️ Love you 😘 Vina ❤️😍
+║ My Owner ◦•●◉✿ 𝗡𝗮𝘁𝗵𝘇𝗗𝗲𝘃 ✿◉●•◦
+║ ❤️ Love you 😘 𝗝𝗮𝘀𝗺 ❤️😍
 ╚══════════════════════╝`;
                 await api.sendMessage({ body: welcomeMessage }, event.threadID);
             }
