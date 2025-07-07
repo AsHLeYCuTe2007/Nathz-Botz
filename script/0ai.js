@@ -48,7 +48,7 @@ module.exports.run = async function({ api, event, args }) {
   }
 
   try {
-    const { data } = await axios.get(`https://deku-rest-apis.ooguy.com/api/gemma-7b?q=${encodeURIComponent(input)}`);
+    const { data } = await axios.get(`https://apis-rho-nine.vercel.app/gemini=${encodeURIComponent(input)}`);
     api.sendMessage(formatFont(`${data.result}`), event.threadID, event.messageID);
 
   } catch (err) {
